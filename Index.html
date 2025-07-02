@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="swiper.css" />
+    <link rel="stylesheet" href="newcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Varun Sharma</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/varun-sharma-237b722a6"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+
+              <a
+                href="https://github.com/varunsh29"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-79"
+                    y="-46"
+                    xlink:href="img.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Varun Sharma</h1>
+              <h3 class="home__subtitle">
+                Computer Science Engineering Student
+              </h3>
+              <p class="home__description">
+                A third-year undergraduate engineering student at
+                <strong>Guru Nanak Dev University RC Jalandhar</strong>,Punjab.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets\img\about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              I'm a third-year CSE undergraduate, passionate about technology and an avid reader. I have a self-motivated and can-do attitude, thriving in challenging and dynamic environments. Seeking a competitive position to enhance my skills and contribute to a professional organization. I'm very much passionate to learn new stuff that interests me and can help me to get better.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">08.30+</span>
+                <span class="about__info-name">Aggregate <br />CGPA</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">1+</span>
+                <span class="about__info-name"
+                  >
+                  Projects</span
+                >
+              </div>
+
+              <div>
+                
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="portfolio.html" class="button button--flex">
+                Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SKILLS =====================-->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== Skill 1 =================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="fas fa-pencil-ruler skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Programming Languages</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C</h3>
+                  </div>
+                  
+                </div>
+                
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Java</h3>
+                    </div>
+                    
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">JavaScript</h3>
+                    </div>
+                    
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Python</h3>
+                    </div>
+                   
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">TypeScript</h3>
+                    </div>
+                </div>
+                
+                
+              </div>
+            </div>
+
+            <!--==================== Skill 2 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-code skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">IT Constructs</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">DBMS</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">DS & Algorithms</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OOP</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OS</h3>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!--==================== Skill 3 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Technologies</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Git</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MongoDB</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NextJs</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NodeJs</h3>
+                  </div>
+                  
+                </div>
+                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Tailwind</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Qualifications ==================-->
+
+      <section
+        class="qualification__section service__section"
+        id="qualification"
+      >
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div
+          class="qualification__container container grid services__container"
+        >
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--====== Qualification Content 1 ======-->
+            <div
+              class="qualification__content qualifiation__active services__content"
+              data-content
+              id="education"
+            >
+              <!--====== Qualification 1 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">CBSE</h3>
+                  <span class="qualification__subtitle"
+                    >S.K.V.N <br />High School</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    - 2020
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Class 10th Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Subjects studied: Science, Maths, English,
+                            Social Studies,Hindi.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored 81%</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Came runners up in inter-school ScienceQuiz</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--====== Qualification 2 ======-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Class 12th</h3>
+                  <span class="qualification__subtitle"
+                    >Layallpur  <br />college Senior Secondary School</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    - 2022
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Class 12th Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Subjects studied: Physics, Chemistry, Maths,
+                            English,Punjabi.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored 82.5%</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--====== Qualification 3 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">University</h3>
+                  <span class="qualification__subtitle"
+                    >Guru Nanak Dev University RC Jalandhar</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - 2026
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">College Summary :</h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Studying core subjects of IT including DSA, Embedded
+                            systems, Design analysis and algorithm, Operating
+                            systems, and Computer architecture .
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>Scored an aggregate of 8.50 CGPA till now.</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                         
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Club Advisor for GeekHub.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            CodeBlaze hackathon winners under open innovation.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Runners in  Hackathon .
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Finalist in Dark Pattern Buster Hackathon conducted by Department of Consumer Affairs of India.
+                          </p>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!--<span class="qualification__line"></span>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=================== Portfolio ===================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ------------------------portfollio 1-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="data:image/jpeg;base64,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" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Cube Runner
+                </h3>
+                <p class="portfolio__description">
+                    Cube Runner is an exciting, adventurous and super easy to play game in which your main aim is to run while avoiding the obstacles and collect points as you move towards your ending point. Just swipe to play and feel the madness when your cube enters the bang bang mode!!
+                </p>
+                <a
+                  href="https://github.com/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://varun-sh.itch.io/my-game"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div></div>
+            <!-- ------------------------portfollio 2-------------------- -->
+
+            
+
+            <!-- ------------------------portfollio 3-------------------- -->
+            
+            <!-- ------------------------portfollio 4-------------------- -->
+          
+                
+            <!-- ------------------------portfollio 5-------------------- -->
+           
+
+      <!--===================== Contact Me =====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-calling contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Contact Me</h3>
+                <span class="contact__subtitle"
+                  ><a href="tel:6362243314"></a>8427125972</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >varunsharma123156@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Jalandhar,Punjab, India</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="content__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="content__label">Email</label>
+                <input type="Email" class="contact__input" />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="content__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a
+                href=" mailto: rkamathvenkatesh@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+                class="button button--flex"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--================== Footer ===============-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Varun Sharma</h1>
+            <span class="footer__subtitle"
+              >Computer Science Engineering Student</span
+            >
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#qualification" class="footer__link">Qualification</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact-Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com"
+              class="footer__social"
+              target="__blank"
+            >
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://twitter.com"
+              target="__blank"
+              class="footer__social"
+            >
+            <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Varun. All right reserved</p><br>
+              </div>
+    </footer>
+
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="swiper.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="ptj.js"></script>
+  </body>
+</html>
